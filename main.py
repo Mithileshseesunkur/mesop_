@@ -1,6 +1,6 @@
 import mesop as me
 
 
-@me.page(path=("/hello_world"))
-def app():
+@me.page(path="/main")
+def main():
   me.text("Hello World")
